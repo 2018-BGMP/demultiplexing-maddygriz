@@ -1,0 +1,12 @@
+index1 = NAAAAAAA
+index2 = TTTTTTTT
+index3 = GGGGGGGG
+
+b1 = containsN(index1)
+b2 = containsN(index2)
+b3 = containsN(index3)
+
+Results:
+b1 = TRUE
+b2 = FALSE
+b3 = FALSE

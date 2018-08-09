@@ -1,0 +1,12 @@
+read1 = [@headerline, CATACTGGTCA , +NAAAAAAA, DDDDDDDDDDD]
+read2 = [@headerline2, CATACTCAGTA, +TTTTTTTT, ;;;;;;;;;;;]
+read3 = [@headerline3, ACGCTGCGATC, +GGGGGGGG, HHHHHHHHHHH]
+
+QS1 = meanQS(read1)
+QS2 = meanQS(read2)
+QS3 = meanQS(read3)
+
+Results:
+QS1 = 35
+QS2 = 26
+QS3 = 39

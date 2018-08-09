@@ -1,0 +1,8 @@
+phred1 = convertPhred("A")
+phred2 = convertPhred("#")
+phred3 = convertPhred("I")
+
+Results:
+phred1 = 32
+phred2 = 2
+phred3 = 40

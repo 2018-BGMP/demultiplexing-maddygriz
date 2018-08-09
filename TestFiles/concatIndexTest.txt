@@ -1,0 +1,19 @@
+read1 = [@headerline, CATACTGGTCA , +, DDDDDDDDDDD]
+read2 = [@headerline2, CATACTCAGTA, +, ;;;;;;;;;;;]
+read3 = [@headerline3, ACGCTGCGATC, +, HHHHHHHHHHH]
+
+index1 = AAAAAAAA
+index2 = TTTTTTTT
+index3 = GGGGGGGG
+
+read1 = concatIndex(read1, index1)
+read2 = concatIndex(read2, index2)
+read3 = concatIndex(read3, index3)
+
+Results:
+read1 = [@headerline, CATACTGGTCA , +NAAAAAAA, DDDDDDDDDDD]
+read2 = [@headerline2, CATACTCAGTA, +TTTTTTTT, ;;;;;;;;;;;]
+read3 = [@headerline3, ACGCTGCGATC, +GGGGGGGG, HHHHHHHHHHH]
+
+
+

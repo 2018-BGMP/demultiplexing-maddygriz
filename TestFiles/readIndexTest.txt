@@ -1,0 +1,20 @@
+@headerline
+NAAAAAAA
++
+DDDADDAD
+@headerline2
+TTTTTTTT
++
+DDDADDAD
+@headerline3
+GGGGGGGG
++
+DDDADDAD
+
+Results:
+readIndex(readIndexTest.txt, 1)
+NAAAAAAA
+readRead(readReadTest.txt, 5)
+TTTTTTTT
+readRead(readReadTest.txt, 9)
+GGGGGGGG
