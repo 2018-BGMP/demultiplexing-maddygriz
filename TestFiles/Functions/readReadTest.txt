@@ -1,0 +1,29 @@
+@headerline
+CATACTGGTCA
++
+DDDDDDDDDDD
+@headerline2
+CATACTCAGTA
++
+;;;;;;;;;;;
+@headerline3
+ACGCTGCGATC
++
+HHHHHHHHHHH
+
+Results:
+readRead(readReadTest.txt, 1)
+[0]@headerline
+[1]CATACTGGTCA
+[2]+
+[3]DDDDDDDDDDD
+readRead(readReadTest.txt, 5)
+[0]@headerline2
+[1]CATACTCAGTA
+[2]+
+[3];;;;;;;;;;;
+readRead(readReadTest.txt, 9)
+[0]@headerline3
+[1]ACGCTGCGATC
+[2]+
+[3]HHHHHHHHHHH

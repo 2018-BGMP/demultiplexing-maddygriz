@@ -1,0 +1,23 @@
+outfile = "goodFile.txt"
+
+read1 = [@headerline, CATACTGGTCA , +NAAAAAAA, DDDDDDDDDDD]
+read2 = [@headerline2, CATACTCAGTA, +TTTTTTTT, ;;;;;;;;;;;]
+read3 = [@headerline3, ACGCTGCGATC, +GGGGGGGG, HHHHHHHHHHH]
+
+writeToGoodFile(outfile, read1)
+writeToGoodFile(outfile, read2)
+writeToGoodFile(outfile, read3)
+
+Results:
+@headerline
+CATACTGGTCA
++AAAAAAAA 
+DDDDDDDDDDD
+@headerline2
+CATACTCAGTA
++TTTTTTTT
+;;;;;;;;;;;
+@headerline3
+ACGCTGCGATC
++GGGGGGGG
+HHHHHHHHHHH

@@ -1,0 +1,23 @@
+outfile = "badFile.txt"
+
+read1 = [@headerline, CATACTGGTCA , +NAAAAAAA, DDDDDDDDDDD]
+read2 = [@headerline2, CATACTCAGTA, +TTTTTTTT, JJJJJJJJJJJ]
+read3 = [@headerline3, ACGCTGCGATC, +GGGGGGGG, HHHHHHHHHHH]
+
+writeToBadFile(outfile, read1, "N")
+writeToBadFile(outfile, read2, "QS")
+writeToBadFile(outfile, read3, "IH")
+
+Results:
+@headerline
+CATACTGGTCA
++NAAAAAAA N
+DDDDDDDDDDD
+@headerline2
+CATACTCAGTA
++TTTTTTTT QS
+;;;;;;;;;;;
+@headerline3
+ACGCTGCGATC
++GGGGGGGG IH
+HHHHHHHHHHH

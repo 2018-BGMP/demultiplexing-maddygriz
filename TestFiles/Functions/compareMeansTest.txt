@@ -1,0 +1,14 @@
+QS1 = 35
+QS2 = 26
+QS3 = 39
+
+cutoffQS = 32
+
+b1 = compareMeans(QS1)
+b2 = compareMeans(QS2) 
+b3 = compareMeans(QS3)
+
+Results:
+b1 = TRUE
+b2 = FALSE
+b3 = TRUE
