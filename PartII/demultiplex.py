@@ -247,12 +247,12 @@ while end != True:
         flag = flag + 2
         IH = IH + 1
     
-    if not(compareMeans(read1[1])) or not(compareMeans(read1[1])):
+    if not(compareMeans(index1)) or not(compareMeans(index2)):
         flag = flag + 4
         QS = QS + 1
     
     if flag == 0:
-        if index1 in indices.keys():
+        if index1 in indices:
             indices[index1] = indices[index1] + 1
             writeToGoodFile('/projects/bgmp/maddyg/Bi624/demultiplexing/outputFiles/%s_R1.fastq' % index1, read1)
             writeToGoodFile('/projects/bgmp/maddyg/Bi624/demultiplexing/outputFiles/%s_R2.fastq' % index1, read2)
