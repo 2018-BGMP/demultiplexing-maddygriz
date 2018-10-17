@@ -247,7 +247,7 @@ while end != True:
         flag = flag + 2
         IH = IH + 1
     
-    if not(compareMeans(index1)) or not(compareMeans(index2)):
+    if not(compareMeans(indexR1)) or not(compareMeans(indexR2)):
         flag = flag + 4
         QS = QS + 1
     
